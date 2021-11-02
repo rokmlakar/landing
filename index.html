@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Landing</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="navbar">
         <div class="logo">
@@ -14,34 +16,42 @@
         </div>
         <div class="links">
             <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
             </ul>
         </div>
     </div>
     <div class="header">
         <div class="left">
-            <h3>This webiste is awesome</h3>
+            <h3>This website is awesome</h3>
             <p>This website has some subtext that goes here under
                 the main title. It's a smaller font and the color
                 is lower contrast
             </p>
-            <button>Sign up</button>
+            <button id="btn1">Sign up</button>
         </div>
-        <div class="right">
-            <img src="img/york.jpg" alt="">
-        </div>
+        <img src="img/mtn.jpg" alt="">
     </div>
-    <div class="main">
-        <div class="info">
-            <h4>Some random information.</h4>
+    <div class="info">
+        <h4>Some random information.</h4>
+    </div>
+    <div class="box">
+        <div class="single-box">
+            <img src="img/mtnic.jpg" id="icon" alt="">
+            <p>this is some subtext under an illustration or image</p>
         </div>
-        <div class="box">
-            <img src="img/box1.jpg" alt="">
-            <img src="img/box2.jpg" alt="">
-            <img src="img/box3.jpg" alt="">
-            <img src="img/box4.jpg" alt="">
+        <div class="single-box">
+            <img src="img/mtnic.jpg" id="icon" alt="">
+            <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="single-box">
+            <img src="img/mtnic.jpg" id="icon" alt="">
+            <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="single-box">
+            <img src="img/mtnic.jpg" id="icon" alt="">
+            <p>this is some subtext under an illustration or image</p>
         </div>
     </div>
     <div class="quote">
@@ -49,17 +59,23 @@
             Maybe it's just filling up space, or maybe people will
             actuall read it. Who knows? All I know is that it looks nice.
         </p>
-        <p>-Thor, God of Thunder</p>
+        <p id="qt">-Thor, God of Thunder</p>
     </div>
     <div class="cta">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right
-            over there!
-        </p>
-        <button>Sign up</button>
+        <div class="cta-left">
+            <p id="cta-title">Call to action! It's time!</p>
+            <p id="cta-text">Sign up for our product by clicking that button right
+                over there!
+            </p>
+        </div>
+        <div class="cta-right">
+            <button id="btn1">Sign up</button>
+        </div>
     </div>
+
     <div class="footer">
-        <p>Copyright &copy; The Odin Project 2021</p>
+        <p>Copyright &copy; RM 2021</p>
     </div>
 </body>
+
 </html>
